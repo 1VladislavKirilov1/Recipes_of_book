@@ -7,7 +7,9 @@ pip install drf-yasg<br>
 pip install djangorestframework<br>
 pip install django.<br><br>
 Затем перейти в директорию recipe_frontend и выполнить команду<br>
-yarn install для установки необходимых пакетов<br><br>
+npm install -g yarn<br>
+yarn install для установки необходимых пакетов<br>
+yarn add -D webpack-dev-server  <br>
 Далее выполните в одном терминале команду:<br>
 python manage.py runserver,<br>
 а в другом:<br>
