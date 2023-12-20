@@ -1,0 +1,53 @@
+[
+    {
+        "model": "recipes.category",
+        "pk": 1,
+        "fields": {
+            "name": "Закуски"
+        }
+    },
+    {
+        "model": "recipes.recipe",
+        "pk": 1,
+        "fields": {
+            "title": "Пицца",
+            "ingredients": "Тесто, помидоры, сыр, ветчина, грибы",
+            "instructions": "Раскатать тесто, смазать томатным соусом, выложить начинку и запечь в духовке",
+            "category": 1
+        }
+    },
+    {
+        "model": "recipes.category",
+        "pk": 2,
+        "fields": {
+            "name": "Первое"
+        }
+    },
+    {
+        "model": "recipes.recipe",
+        "pk": 2,
+        "fields": {
+            "title": "Суп",
+            "ingredients": "Картофель, морковь, лук, капуста, бульон",
+            "instructions": "Сварить овощи в бульоне, измельчить и подавать",
+            "category": 2
+        }
+    },
+    {
+        "model": "recipes.category",
+        "pk": 3,
+        "fields": {
+            "name": "Второе"
+        }
+    },
+    {
+        "model": "recipes.recipe",
+        "pk": 3,
+        "fields": {
+            "title": "Второе",
+            "ingredients": "Мясо, овощи, картофель",
+            "instructions": "Обжарить мясо, добавить овощи и картофель, тушить до готовности",
+            "category": 3
+        }
+    }
+]
