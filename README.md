@@ -4,7 +4,7 @@
 Затем перейти в директорию recipe_project и выполнить команду: <br>
 pip install -r requirements.txt.<br><br>
 Затем перейти в директорию recipe_frontend и выполнить команду<br>
-npm install -g yarn<br>
+npm install -g yarn, если не установлен менеджер пакетов yarn<br>
 yarn install для установки необходимых пакетов<br>
 Далее выполните в одном терминале команду:<br>
 python manage.py runserver,<br>
