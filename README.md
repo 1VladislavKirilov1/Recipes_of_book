@@ -1,14 +1,10 @@
 <h1>Проект с рецептами блюд на DRF + OpenApi + Swagger + react-router</h1>
 <hr>
 Для того, чтобы запустить проект нужно клонировать репозиторий.<br>
-Затем перейти в директорию recipe_project и выполнить команды: <br>
-pip install django-cors-headers<br>
-pip install drf-yasg<br>
-pip install djangorestframework<br>
-pip install django.<br><br>
+Затем перейти в директорию recipe_project и выполнить команду: <br>
+pip install -r requirements.txt.<br><br>
 Затем перейти в директорию recipe_frontend и выполнить команду<br>
 npm install -g yarn<br>
-yarn add -D webpack-dev-server<br>
 yarn install для установки необходимых пакетов<br>
 Далее выполните в одном терминале команду:<br>
 python manage.py runserver,<br>
